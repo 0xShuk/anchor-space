@@ -14,7 +14,7 @@ It supports:
 - Primitives
 
 It doesn't yet support:
-- Options other than Option<String> and Option<Primitives>
+- Options other than Option of String and Primitives
 - Two-dimensional vectors of custom type
 - Custom types inside custom types
 - Arrays of Custom Type
@@ -26,4 +26,4 @@ The tool is written in vanilla JS and CSS. You won't need to install any depende
 
 ## Tool Active at
 
-https://0xshuk.github.com/anchor-space
+https://0xshuk.github.io/anchor-space
