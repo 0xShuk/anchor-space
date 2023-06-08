@@ -1,6 +1,6 @@
 # Anchor Space Calculator
 
-A simple tool written in pure JS to calculate space requirement of an Anchor state by simply copying/pasting the Rust
+A simple tool written in pure JS to calculate a space requirement for an Anchor state by simply entering the Rust
 code in the tool. 
 
 It supports: 
@@ -18,4 +18,6 @@ It supports:
 The tool is written in vanilla JS and CSS. You won't need to install any dependency. Just clone the repo and run the 
 `index.html` file in a browser.
 
-## Active Deployment
+## Tool Active at
+
+https://0xshuk.github.com/anchor-space
