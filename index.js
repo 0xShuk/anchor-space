@@ -329,7 +329,7 @@ customTypesUI.addEventListener("change", e => {
             inputDiv.insertAdjacentHTML("beforeEnd", `
                 <label class="custom-heading">Largest variant of ${name}</label><br>
                 <textarea cols="8" class="custom-input enum-input" data-id="${id}" data-type="enum"
-                    data-cid=${customSpace.length}
+                    data-cid=${customSpace.length} spellcheck="false"
                     placeholder="example: 
 AddOwner {owner: Pubkey, code: u8} 
 "
@@ -342,7 +342,7 @@ AddOwner {owner: Pubkey, code: u8}
             inputDiv.insertAdjacentHTML("beforeEnd", `
             <label class="custom-heading">Paste ${name} struct</label><br>
                 <textarea class="custom-input struct-input" data-id="${id}" data-type="struct"
-                data-cid=${customSpace.length}
+                data-cid=${customSpace.length} spellcheck="false"
                 placeholder="example: 
 pub struct Stratum { 
     pub owners: Vec<Pubkey>, 
