@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor Space Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Anchor Space Calculator</h1>
+        <h3>Paste your program's state and get the accurate space requirement</h3>
+    </header>
+    <div class="main-wrapper">
+        <div class="input-wrapper">
+            <textarea id="input-state" spellcheck="false" placeholder="Paste your Anchor state here. Example:
+            
+    #[account]
+    #[derive(Default)]
+    pub struct MyAccount {
+        data: u64,
+        mint: Pubkey
+    }"
+            ></textarea>
+            <div class="" id="vectors-box">
+                <h2>Vectors</h2>
+                <div id="vectors"></div>
+                <div id="custom-vectors"></div>
+        
+            </div>
+            <div class="" id="strings-box">
+                <h2>Strings</h2>
+                <div id="strings"></div>
+                <div id="custom-strings"></div>
+        
+            </div>
+            <div class="" id="customs-box">
+                <h2>Custom Types</h2>
+                <div id="customs"></div>
+            </div>
+        </div>
+        <div class="output-wrapper">
+            <div class="space-box"></div>
+            <textarea class="output-code" placeholder="Enter your state above to generate the results...." spellcheck="false" readonly></textarea>
+        </div>
+    </div>
+    <footer>
+        <div class="">Created By <a href="https://twitter.com/0xShuk" class="">0xShuk</a></div>
+        <div class="">Source Code @ <a href="https://github.com/0xShuk/Anchor-Space" class="">Github</a></div>
+    </footer>
+    <script src="customs.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
