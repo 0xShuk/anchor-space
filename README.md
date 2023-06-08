@@ -13,6 +13,12 @@ It supports:
 - Arrays
 - Primitives
 
+It doesn't yet support:
+- Options other than Option<String> and Option<Primitives>
+- Two-dimensional vectors of custom type
+- Custom types inside custom types
+- Arrays of Custom Type
+
 ## How to use
 
 The tool is written in vanilla JS and CSS. You won't need to install any dependency. Just clone the repo and run the 
